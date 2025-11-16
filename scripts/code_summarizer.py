@@ -4,7 +4,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from code_summarizer import summarize_diff
+from scripts.code_summarizer import summarize_diff
 
 
 def get_diff() -> str:
