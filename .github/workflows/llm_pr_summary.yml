@@ -3,6 +3,8 @@ name: LLM PR Summary Bot
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  
+  workflow_dispatch:
 
 jobs:
   summarize:
